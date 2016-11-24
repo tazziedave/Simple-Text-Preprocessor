@@ -3,6 +3,8 @@ A simple windows command line text file processor that allows for conditional in
 
 It is totally file extension agnostic and relies on command line parameters to identify the conditions within the input file. This makes it suitable for preprocessing PHP, Javascript, CSS, HTML, XML or just about anything.
 
+It is written using Delphi XE2. The executable is in win32\release. The win32\test directory contains text files and batch files used to verify program operation.
+
 ## Command Line
 
 	SPP InFile [OutFile]
@@ -10,11 +12,11 @@ It is totally file extension agnostic and relies on command line parameters to i
 		-1[tag] -2[tag] -3[tag] -4[tag] -5[tag] -6[tag] -7[tag] -8[tag] -9commentString ...
 		-Q -F -H -? -E -L]
 
-Most of the following documentation is taken from using the command:
+The following documentation is taken from using the command:
 	
 	SPP -h (or SPP -? for a section at a time
 
-	Description:
+    Description:
       Simple text file preprocessor.
       Creates OutFile from InFile by including or excluding text based on defined conditionals
       (from the command line or within the InFile) and conditions specified within the InFile.

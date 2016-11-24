@@ -3,7 +3,7 @@ A simple windows command line text file processor that allows for conditional in
 
 It is totally file extension agnostic and relies on command line parameters to identify the conditions within the input file. This makes it suitable for preprocessing PHP, Javascript, CSS, HTML, XML or just about anything.
 
-It is written using Delphi XE2. The executable is in win32\release. The win32\test directory contains text files and batch files used to verify program operation.
+It is written using Delphi XE2. The win32\test directory contains text files and batch files used to verify program operation.
 
 ## Command Line
 

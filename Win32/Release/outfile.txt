@@ -1,4 +1,0 @@
-// #undef baz
-
-        foo and bar defined
-ifdef Unaffected text

@@ -1,0 +1,46 @@
+This is simple file no3 to test the phpp preprocessor.
+BASIC_TEST not defined
+
+#ifdef BASIC_TEST
+ifdef BASIC_TEST using #
+#else
+else ifdef BASIC_TEST using #
+#endif
+After ifdef BASIC_TEST using #
+
+//#ifdef BASIC_TEST
+ifdef BASIC_TEST using //#
+//#else
+else ifdef BASIC_TEST using //#
+//#endif
+After ifdef BASIC_TEST using //#
+
+#undef basic_test
+BASIC_TEST undef
+// #ifdef BASIC_TEST
+ifdef BASIC_TEST using // #
+// #else
+else ifdef BASIC_TEST using // #
+// #endif
+After ifdef BASIC_TEST using // #
+
+<!-- #def basic_test Extraneous noise
+BASIC_TEST def
+/*#ifdef BASIC_TEST
+ifdef BASIC_TEST using /*#
+/*#endif
+After ifdef BASIC_TEST using /*#
+
+/*#undef basic_test
+BASIC_TEST undefined
+/* #ifdef BASIC_TEST
+ifdef BASIC_TEST using /* #
+/* #endif
+After ifdef BASIC_TEST using /* #
+
+<!--#ifdef BASIC_TEST
+ifdef BASIC_TEST using <!--#
+<!--#else
+else ifdef BASIC_TEST using <!--#
+<!--#endif
+After ifdef BASIC_TEST using <!--#

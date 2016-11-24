@@ -1,0 +1,59 @@
+This is simple file no1 to test the phpp preprocessor.
+#def BASIC_TEST
+
+#ifdef BASIC_TEST
+ifdef BASIC_TEST using #
+#else
+else ifdef BASIC_TEST using #
+#endif
+After ifdef BASIC_TEST using #
+
+//#ifdef BASIC_TEST
+ifdef BASIC_TEST using //#
+//#else
+else ifdef BASIC_TEST using //#
+//#endif
+After ifdef BASIC_TEST using //#
+
+// #ifdef BASIC_TEST
+ifdef BASIC_TEST using // #
+// #else
+else ifdef BASIC_TEST using // #
+// #endif
+After ifdef BASIC_TEST using // #
+
+/*#ifdef BASIC_TEST
+ifdef BASIC_TEST using /*#
+/*#else
+else ifdef BASIC_TEST using /*#
+/*#endif
+After ifdef BASIC_TEST using /*#
+
+/* #ifdef BASIC_TEST
+ifdef BASIC_TEST using /* #
+/* #else
+else ifdef BASIC_TEST using /* #
+/* #endif
+After ifdef BASIC_TEST using /* #
+
+<!--#ifdef BASIC_TEST
+ifdef BASIC_TEST using <!--#
+<!--#else
+else ifdef BASIC_TEST using <!--#
+<!--#endif
+After ifdef BASIC_TEST using <!--#
+
+<!-- #ifdef BASIC_TEST
+ifdef BASIC_TEST using <!-- #
+<!-- #else
+else ifdef BASIC_TEST using <!-- #
+<!-- #endif
+After ifdef BASIC_TEST using <!-- #
+
+/&#ifdef BASIC_TEST
+ifdef BASIC_TEST using /&#
+/&#else
+else ifdef BASIC_TEST using /&#
+/&#endif
+After ifdef BASIC_TEST using /&#
+

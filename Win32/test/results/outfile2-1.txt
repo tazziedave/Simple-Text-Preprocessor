@@ -1,0 +1,25 @@
+This is simple file no2 to test the phpp preprocessor.
+
+BASIC_TEST defined
+ifdef BASIC_TEST using #
+After ifdef BASIC_TEST using #
+
+ifdef BASIC_TEST using //#
+After ifdef BASIC_TEST using //#
+
+BASIC_TEST undef
+else ifdef BASIC_TEST using // #
+After ifdef BASIC_TEST using // #
+
+BASIC_TEST def
+ifdef BASIC_TEST using /*#
+After ifdef BASIC_TEST using /*#
+
+BASIC_TEST undefined
+else ifdef BASIC_TEST using /* #
+After ifdef BASIC_TEST using /* #
+
+else ifdef BASIC_TEST using <!--#
+After ifdef BASIC_TEST using <!--#
+=========================================================== 
+test 2 - 1      

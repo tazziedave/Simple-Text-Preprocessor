@@ -1,0 +1,4 @@
+//def bar
+
+        foo is defined, bar isn't
+ifdef Unaffected text

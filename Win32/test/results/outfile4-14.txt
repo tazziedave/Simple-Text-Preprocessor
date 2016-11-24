@@ -1,0 +1,34 @@
+This is simple file no4 to test the phpp preprocessor with multiple defines, no nesting.
+Def1 is not mentioned, def2 is defined initially and def3 is undefined initially
+ 
+
+Def1 defined
+
+Def1 defined
+
+Defining Def1
+
+Def1 defined
+
+Def1 defined
+
+Def2 defined
+
+Def2 defined
+
+Undefining Def2
+ 
+Def2 defined
+
+Def2 defined
+
+Def3 defined
+
+Def3 defined
+
+Defining def3
+Def3 defined
+
+Def3 defined
+=========================================================== 
+test 4 - 14 --ddef1 /ddef2 -ddef3   

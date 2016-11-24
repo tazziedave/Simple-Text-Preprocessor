@@ -1,0 +1,26 @@
+This is simple file no4 to test the phpp preprocessor with multiple defines and nesting.
+Results are:
+	{12} => implies Def1 and Def2 have been tested, and are both defined
+	{1}[2] => implies Def1 and Def2 have been tested, 1 is defined and 2 isn't
+	[123] => implies all 4 have been tested and none defined etc.
+
+Def1 is not mentioned, def2 is defined initially and def3 is undefined initially
+
+	[1]
+		[12]
+		[13]
+		[14]
+
+Defining 1 and 3, undefining 2
+
+	[1]
+			[123]
+		[12]
+
+Defining 2, undefining 1 and 3
+
+	[1]
+			[123]
+		[12]
+=========================================================== 
+test 5 - 12 -udef1 -udef2 -udef3   

@@ -314,8 +314,6 @@ begin
 end;
 
 procedure InitScreenMode;
-var
-  BufferInfo: TConsoleScreenBufferInfo;
 begin
   Reset(Input);
   Rewrite(Output);

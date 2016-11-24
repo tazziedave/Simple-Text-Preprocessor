@@ -94,7 +94,10 @@ begin
     show('to create the example file.');
   end;
 
-  show('');
+  indent := 0;
+  show('Version 1.0 Beta', True);
+  indent := 2;
+  show('Source and further documentation can be found at https://github.com/tazziedave/Simple-Text-Preprocessor');
 
   Halt;
 end;
